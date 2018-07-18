@@ -1,53 +1,57 @@
 <?php 
 
-//add scripts and stylesheet
-
+//Adding scripts and stylesheet
 function newtheme_enqueue_style() {
+
   	wp_enqueue_style('bootstrap', get_template_directory_uri().'/css/bootstrap.min.css');
     wp_enqueue_style('font', get_template_directory_uri().'/css/font-awesome.min.css');
-	  wp_enqueue_style('core', get_template_directory_uri().'/style.css');
-
+    wp_enqueue_style('core', get_template_directory_uri().'/style.css');
 }
 
 function newtheme_enqueue_script() {
-	wp_enqueue_script('jquery', get_template_directory_uri().'/js/jquery-3.1.1.min.js');
-	wp_enqueue_script('bootstrap', get_template_directory_uri().'/js/bootstrap.min.js');
-}
+    wp_register_script('jquery', get_template_directory_uri() . '/js/jquery-3.1.1.min.js');
+    wp_register_script('bootstrap', get_template_directory_uri() . '/js/bootstrap.min.js');
 
+    wp_enqueue_script('jquery');
+	wp_enqueue_script('bootstrap');
+}
 add_action('wp_enqueue_scripts', 'newtheme_enqueue_style');
 add_action('wp_enqueue_scripts', 'newtheme_enqueue_script');
 
-/*Register Menu*/
+
+// Adding Menus
 function register_my_menu() {
-  register_nav_menu('main-menu',__( 'Main Menu' ));
-  register_nav_menu('category-menu',__( 'Category Menu' ));
+    register_nav_menu('main-menu',__( 'Main Menu' ));
+    register_nav_menu('category-menu',__( 'Category Menu' ));
+    register_nav_menu('home-page-menu',__( 'Home Page Menu' ));
 };
 
 add_action( 'init', 'register_my_menu' );
 
-// adds the excerpts (read more link)
+// Adding the excerpts (read more link)
 function new_excerpt_more( $more ) {
-  return ' <a class="read-more" href="'. get_permalink( get_the_ID() ) . '">' . __('Read More', 'your-text-domain') . '</a>';
+    return ' <a class="read-more" href="'. get_permalink( get_the_ID() ) . '">' . __('Read More', 'your-text-domain') . '</a>';
 }
-/*adding post types*/
+//Adding Custom Post Types
 add_action( 'init', 'create_post_type' );
 function create_post_type() {
-	//can register multiple post types in this function
-  register_post_type( 'newest-projects',
-    array(
-      'labels' => array(
-        'name' => __( 'Newest Projects' ),
-        'singular_name' => __( 'Newest Project' )
-      ),
-      'public' => true,
-      'has_archive' => true,
-      'suports' => array('title','editor','page-attributes', 'thumbnail')
-    )
-  );
+    //can register multiple post types in this function
+      register_post_type( 'newest-projects',
+        array(
+          'labels' => array(
+            'name' => __( 'Projects' ),
+            'singular_name' => __( 'Project' )
+          ),
+          'public' => true,
+          'has_archive' => true,
+          'suports' => array('title','editor','page-attributes', 'thumbnail')
+        )
+      );
 }
 
-//sets a custom size for thumbnails
 
+
+//Adding Custom Sizes for Thumbnails
 add_theme_support('post-thumbnails');
 add_post_type_support( 'newest-projects', 'thumbnail' );
 add_image_size('menu-thumb', 370, 370);
@@ -57,13 +61,13 @@ add_image_size('main-img', 700 , 700);
 add_filter( 'excerpt_more', 'new_excerpt_more' );
 
 
-//add support for title tag 
+//Adding Support for Title Tag
 add_theme_support('title-tag');
 
-//register widgets
+//Adding Widgets
 register_sidebar();
 
-/*side bar*/
+//Adding Sidebar
 add_action( 'widgets_init', 'theme_slug_widgets_init' );
 function theme_slug_widgets_init() {
     register_sidebar( array(
@@ -75,9 +79,18 @@ function theme_slug_widgets_init() {
   'before_title'  => '<h2 class="widgettitle">',
   'after_title'   => '</h2>',
     ) );
+
+    register_sidebar(array(
+            'name' => 'Home Page Header',
+            'before_widget' => '<div class = "widgetizedArea">',
+            'after_widget' => '</div>',
+            'before_title' => '<h3>',
+            'after_title' => '</h3>',
+        )
+    );
 }
 
-/*removing the bottom related posts from single posts.*/
+//Removing the bottom related posts from single posts.
 function jetpackme_remove_rp() {
     if ( class_exists( 'Jetpack_RelatedPosts' ) ) {
         $jprp = Jetpack_RelatedPosts::init();
@@ -88,8 +101,7 @@ function jetpackme_remove_rp() {
 add_filter( 'wp', 'jetpackme_remove_rp', 20 );
 
 
-/*adding a randomize of posts*/
-
+//Adding a Randomize of Posts
 function wpb_rand_posts() { 
 
 $args = array(
@@ -119,5 +131,5 @@ return $string;
 } 
 
 add_shortcode('wpb-random-posts','wpb_rand_posts');
-add_filter('widget-text', 'do_shortcode'); 
- ?>
+add_filter('widget-text', 'do_shortcode');
+?>

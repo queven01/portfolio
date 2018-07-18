@@ -25,35 +25,99 @@ body {
 	position: relative;*/
 /*}*/
 
-/*----------------------------------------------Hero Styles----------------------------------------------*/
-.main-header-title {
-	text-align: center;
-    margin-top: 4em;
-    font-size: 4em;
-    color: white;
-    text-transform: uppercase;
-    text-shadow: 0px 2px 5px #353535;
+
+/*----------------------------------------------Colors----------------------------------------------*/
+
+h1, h2 {
+	color: #fff;
 }
-.hero-content {
+
+h1{
+	font-size: 8rem;
+}
+h2 {
+	font-size: 4rem;
+}
+a {
+	color: white;
+}
+a:hover {
+	color: white;
+	text-decoration: none;
+}
+.btn-primary {
+	background:#1f6468;
+	border-color: #1f6468;
+}
+.btn-primary:hover {
+	background: #3a898d;
+	border-color: #1f6468;
+}
+.btn-ghost {
+	border-color: #fff;
+	color: #fff;
+}
+.btn-ghost:hover {
+	background: #1f6468;
+	border-color: #1f6468;
+	color: #fff;
+}
+.btn-large{
+	padding: 2rem 4rem;
+	font-size: 2rem;
+}
+/*----------------------------------------------Home Page Styles----------------------------------------------*/
+.home-page-header {
+	height: 100vh;
+    min-height: 500px;
+    background-position: center;
+    background-size: cover;
+}
+.home-page-header .hero-content {
 	position: absolute;
-	top: 25.5rem;
+	top: 20vh;
+	width: 100%;
+	padding: 5%;
+    text-align: center;
 }
-.main-title {
-    font-size: 8em;
-    color: white;
-    line-height: 9rem;
-    width: 50%;
-    text-shadow: 0px -2px 5px #353535;
-    font-weight: lighter;
+.home-page-header .call-to-action {
+	margin-top: 2.5%;
 }
-.main-title span {
-	font-weight: bold;
+.home-page-header .main-logo {
+    width: 150px;
+    float: none;
 }
-h2.my-career-title {
-    color: white;
-    text-shadow: 0px 2px 5px #353535;
-    font-weight: lighter;
+ul#menu-home-page-menu {
+	padding: 0px;
 }
+
+/*----------------------------------------------Other Pages Styles----------------------------------------------*/
+.all-pages-header nav.main-menu {
+	background: transparent;
+	padding: 0 5% 0 5%;
+}
+.all-pages-header h2.blogname {
+	float: left;
+}
+.all-pages-header {
+	height: 30vh;
+	position: relative;
+    min-height: 250px;
+    background-position: center;
+    background-size: cover;
+}
+.all-pages-header .page-title {
+	font-size: 8em;
+	line-height: 0.5;
+}
+.all-pages-header .hero-content{
+	position: absolute;
+	text-align: center;
+	bottom: 0rem;
+	width: 100%;
+	padding: 5% 5% 0 5%;
+}
+
 /*----------------------------------------------FRONT PAGE----------------------------------------------*/
 .header-img {
 	background: url('http://designnsuccess.com/wp-content/uploads/2017/02/andrew-illarionov-26591.jpg');
@@ -68,10 +132,10 @@ h2.my-career-title {
 	height: 100%;
 	width: 100%;
 }
-header .container h1.blogname {
+header h2.blogname {
 	float: left;
 }
-header .container h1.blogname a {
+header h2.blogname a {
 	color: white;
 	text-decoration: none;
 }
@@ -101,123 +165,56 @@ nav.main-menu {
 	position: fixed;
 	left: 0;
 	right: 0;
-	box-shadow: 0px 2px 10px #353535;
 	z-index: 1;
 }
 .main-logo {
 	float: left;
     width: 50px;
-    margin: 15px;
-}
-/*----------------------------------------------Secondary Pages Header----------------------------------------------*/
-.secondary-page-header{
-	height: 300px;
-}
-.secondary-page-header .main-header-title {
-	position: absolute;
-	top: 22rem;
-	width: 100%;
-    left: 0;
-    padding-right: 25%;
-	font-size: 9rem;
-	font-weight: 900;
-	text-shadow: 0px -2px 2px #353535;
-	margin: 0;
-}
-/*----------------------------------------------Front Page Styles----------------------------------------------*/
-.front-page-goal p:last-child {
-	padding:  15px;
-    border: 1px solid #ffd844;
-    background: #fff3ce;
-}
-.front-page-goal2 p:first-child {
-	padding: 15px;
-    border: 1px solid #0d4e8c;
-    background: #b1d2f1;
-}
-.front-page-goal2 li {
-	font-size: 16px;
-}
-.front-page-icon, .nait-logo {
-	float: left;
-	margin-right: 15px;
-}
-.newest-projects {
-	height: 300px;
-	text-align: center;
-	background-color: #3a3b3c;
-	opacity: .6;
-	overflow: hidden;
-	padding: 0px;
-  -webkit-transition: all 0.5s ease;
-     -moz-transition: all 0.5s ease;
-       -o-transition: all 0.5s ease;
-      -ms-transition: all 0.5s ease;
-          transition: all 0.5s ease;
-    padding-bottom: 50px;
-}
-.newest-projects h4 {
-	color: white;
-}
-.newest-projects:hover {
-	opacity: 1;
-	padding-top: 5px;
-	cursor: pointer;
-	background-color: rgba(255,255,255, 0.3);
-}
-.recent-projects {
-	min-height: 300px;
-    padding: 0px 0px;
-    background: #3a3b3c;
+    margin: 15px 15px 15px 0;
 }
 
-/*----------------------------------------------About Me----------------------------------------------*/
-.about-page img {
-	box-shadow: 4px 4px 10px black;
-}
-.about-page .about-color {
-	color: white;
-}
-/*Porjects Page*/
-.newest-projects-expanded{
-	height: 550px;
-	overflow: hidden;
+/*---------------------------------------------Project Section & Projects Page----------------------------------------------*/
+.newest-projects-expanded {
+	background-size: cover !important;
+	background-repeat: no-repeat !important;
+	background-position: center !important;
+	background-color: black !important;
+	min-height: 400px;
 	transition-duration: .4s;
-	box-sizing: border-box;
     padding: 10px;
 }
 .newest-projects-expanded a {
 	text-decoration: none;
-}
-.newest-projects-expanded p{
-	color: black;
-}
-.project-img {
-	height: 370px;
-	overflow: hidden;
-}
-.project-img img {
-	width: 100%;
-	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
 }
 .newest-projects-expanded h4 {
 	font-size: 25px;
+	margin: 0px;
 	color: #226568;
 	font-weight: bold;
-	text-align: center;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0;
 }
-.newest-projects-expanded:hover {
-	background: rgba(34, 101, 104, 0.3);
+.newest-projects-expanded:hover h4 {
+	background: rgba(34, 101, 104, 0.8);
+	opacity: 1;
+	color: #fff;
 	cursor: pointer;
-	padding: 15px 10px 10px 10px;
 }
 
 /*----------------------------------------------Category Pages (archive.php) ----------------------------------------------*/
 .category-menu {
-	margin-top: 30px;
-	margin-bottom: 30px;
+	margin-top: 8px;
 	background: #226568;
-    padding: 20px;
+    padding: 40px;
 }
 .category-menu .menu {
 	list-style-type: none;
@@ -352,7 +349,7 @@ div.icon-credit{
 		top: 29.4rem;
     	padding-left: 10%;
 	}
-	.main-title {
+	.site-title {
 	    font-size: 6em;
 	    color: white;
 	    line-height: 7rem;
@@ -373,7 +370,7 @@ div.icon-credit{
 		top: 20rem;
     	padding-left: 10%;
 	}
-	.main-title {
+	.site-title {
 		margin-top: 0px;
 		font-size: 4rem;
 		line-height: 4rem;
@@ -382,7 +379,7 @@ div.icon-credit{
 		height: 300px;
 		background-attachment: inherit;
 	}
-	h2.my-career-title {
+	h2.description {
 		margin-top: 0px;
     	font-size: 16px;
     }
