@@ -1,0 +1,439 @@
+/*
+ Theme Name: Custom Portfolio
+ Author: Kevin Correa
+ Description: Kevin's Portfolio
+ Version 1.0
+*/
+/*----------------------------------------------MUST HAVE STYLES!----------------------------------------------*/
+body {
+	margin: 0px;
+	font-family: sans-serif;
+}
+/*.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+/** html .clearfix { height: 1%; }
+.clearfix { display: block; }
+.container {
+	position: relative;*/
+/*}*/
+
+/*----------------------------------------------Hero Styles----------------------------------------------*/
+.main-header-title {
+	text-align: center;
+    margin-top: 4em;
+    font-size: 4em;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 0px 2px 5px #353535;
+}
+.hero-content {
+	position: absolute;
+	top: 25.5rem;
+}
+.main-title {
+    font-size: 8em;
+    color: white;
+    line-height: 9rem;
+    width: 50%;
+    text-shadow: 0px -2px 5px #353535;
+    font-weight: lighter;
+}
+.main-title span {
+	font-weight: bold;
+}
+h2.my-career-title {
+    color: white;
+    text-shadow: 0px 2px 5px #353535;
+    font-weight: lighter;
+}
+/*----------------------------------------------FRONT PAGE----------------------------------------------*/
+.header-img {
+	background: url('http://designnsuccess.com/wp-content/uploads/2017/02/andrew-illarionov-26591.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+    height: 500px;
+}
+.overlay {
+	background-color: rgba(0, 0, 0, 0.5);
+	height: 100%;
+	width: 100%;
+}
+header .container h1.blogname {
+	float: left;
+}
+header .container h1.blogname a {
+	color: white;
+	text-decoration: none;
+}
+nav.main-menu .menu {
+	float: right;
+	margin-top: 30px;
+}
+nav.main-menu .menu li {
+	float: left;
+	list-style-type: none;
+}
+nav.main-menu .menu li a {
+	text-decoration: none;
+	padding: 10px 20px;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: #fff;
+}
+nav.main-menu .menu li a:hover {
+	background: #fff;
+	color: #1f6468;
+	border-radius: 4px;
+	cursor: pointer;
+}
+nav.main-menu {
+	background: #1f6468;
+	position: fixed;
+	left: 0;
+	right: 0;
+	box-shadow: 0px 2px 10px #353535;
+	z-index: 1;
+}
+.main-logo {
+	float: left;
+    width: 50px;
+    margin: 15px;
+}
+/*----------------------------------------------Secondary Pages Header----------------------------------------------*/
+.secondary-page-header{
+	height: 300px;
+}
+.secondary-page-header .main-header-title {
+	position: absolute;
+	top: 22rem;
+	width: 100%;
+    left: 0;
+    padding-right: 25%;
+	font-size: 9rem;
+	font-weight: 900;
+	text-shadow: 0px -2px 2px #353535;
+	margin: 0;
+}
+/*----------------------------------------------Front Page Styles----------------------------------------------*/
+.front-page-goal p:last-child {
+	padding:  15px;
+    border: 1px solid #ffd844;
+    background: #fff3ce;
+}
+.front-page-goal2 p:first-child {
+	padding: 15px;
+    border: 1px solid #0d4e8c;
+    background: #b1d2f1;
+}
+.front-page-goal2 li {
+	font-size: 16px;
+}
+.front-page-icon, .nait-logo {
+	float: left;
+	margin-right: 15px;
+}
+.newest-projects {
+	height: 300px;
+	text-align: center;
+	background-color: #3a3b3c;
+	opacity: .6;
+	overflow: hidden;
+	padding: 0px;
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+    padding-bottom: 50px;
+}
+.newest-projects h4 {
+	color: white;
+}
+.newest-projects:hover {
+	opacity: 1;
+	padding-top: 5px;
+	cursor: pointer;
+	background-color: rgba(255,255,255, 0.3);
+}
+.recent-projects {
+	min-height: 300px;
+    padding: 0px 0px;
+    background: #3a3b3c;
+}
+
+/*----------------------------------------------About Me----------------------------------------------*/
+.about-page img {
+	box-shadow: 4px 4px 10px black;
+}
+.about-page .about-color {
+	color: white;
+}
+/*Porjects Page*/
+.newest-projects-expanded{
+	height: 550px;
+	overflow: hidden;
+	transition-duration: .4s;
+	box-sizing: border-box;
+    padding: 10px;
+}
+.newest-projects-expanded a {
+	text-decoration: none;
+}
+.newest-projects-expanded p{
+	color: black;
+}
+.project-img {
+	height: 370px;
+	overflow: hidden;
+}
+.project-img img {
+	width: 100%;
+	height: 100%;
+}
+.newest-projects-expanded h4 {
+	font-size: 25px;
+	color: #226568;
+	font-weight: bold;
+	text-align: center;
+}
+.newest-projects-expanded:hover {
+	background: rgba(34, 101, 104, 0.3);
+	cursor: pointer;
+	padding: 15px 10px 10px 10px;
+}
+
+/*----------------------------------------------Category Pages (archive.php) ----------------------------------------------*/
+.category-menu {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	background: #226568;
+    padding: 20px;
+}
+.category-menu .menu {
+	list-style-type: none;
+	text-align: center;
+	width: 500px;
+	margin: auto;
+}
+.category-menu ul li a{
+	padding: 10px 20px;
+	color: #d0d0d0;
+	text-decoration: none;
+	border-radius: 5px;
+	border: 1px solid white;
+}
+.category-menu .menu li {
+	float: left;
+	margin-right: 10px;
+}
+.category-menu ul li a:hover {
+	border-radius: 5px;
+	color: white;
+	cursor: pointer;
+	background-color: rgba(255,255,255, 0.3);
+}
+
+
+/*----------------------------------------------Contact Page----------------------------------------------*/
+.contact-form {
+	margin: 0 auto;
+    width: 350px;
+}
+.widget-title {
+	text-align: center;
+	padding: 30px 0px;
+}
+#g57-name, #g57-email, #contact-form-comment-g57-comment {
+   	width: 100%;
+}
+.pushbutton-wide {
+    width: 200px;
+    color: white;
+    height: 50px;
+    background-color: #F44336;
+    text-align: center;
+    border: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-left: 80px;
+}
+.my-img img {
+	width: 300px;
+    margin-top: 25%;
+}
+
+/*Single Blog Post*/
+.singleblog .main-header-title {
+	margin-top: 4em;
+    font-size: 4em;
+}
+.single-blog p.img {
+	text-align: center;
+}
+.single-blog .img img {
+		width: 100%;
+	height: 100%;
+}
+.single-blog .half-post {
+	width: 50%;
+	float: left;
+	display: inline-block;
+	box-sizing: border-box;
+	padding: 0px 10px;
+	margin-top: 100px;
+}
+div#jp-relatedposts {
+	display: none;
+}
+/*----------------------------------------------Footer Styles----------------------------------------------*/
+
+footer {
+	min-height: 150px;
+	background-color: #3a3b3c;
+	color: #929292;
+}
+footer h3 {
+	text-align: center;
+	margin-top: 30px;
+}
+.footer-nav {
+	margin-top: 30px;
+	list-style-type: none;
+	text-align: right;
+}
+.footer-nav li {
+	margin: 10px 0px;
+}
+.footer-nav li a{
+	text-decoration: none;
+	text-align: right;
+	padding: 5px 15px;
+	margin-bottom: 5px;
+	color: #929292;
+}
+.footer-nav li a:hover {
+	background-color: rgba(255,255,255,0.2);
+	border-radius: 5px;
+	cursor: pointer;
+	color: white;
+}
+.copyright {
+	padding: 5px;
+	background: #2d2d2d;
+	text-align: center;
+	color:#656565;
+	margin-top: 30px;
+}
+.copyright p{
+	margin: 0px;
+}
+div.icon-credit{
+	font-size: 7px;
+}
+/*----------------------------------------------responsive media queries----------------------------------------------*/
+@media (min-width: 1200px) {
+	.container{
+		margin: 0 auto;
+		width: 1170px;
+	}
+}
+@media (max-width: 767px) {
+	.hero-content {
+		top: 29.4rem;
+    	padding-left: 10%;
+	}
+	.main-title {
+	    font-size: 6em;
+	    color: white;
+	    line-height: 7rem;
+	}
+	.secondary-page-header .main-header-title {
+	    top: 25rem;
+	    font-size: 6rem;
+	}
+}
+@media (max-width: 575px) {
+	.secondary-page-header .main-header-title {
+        top: 25.5rem;
+	    padding-left: 10%;
+	    font-size: 5rem;
+	}
+
+	.hero-content{
+		top: 20rem;
+    	padding-left: 10%;
+	}
+	.main-title {
+		margin-top: 0px;
+		font-size: 4rem;
+		line-height: 4rem;
+	}
+	.header-img {
+		height: 300px;
+		background-attachment: inherit;
+	}
+	h2.my-career-title {
+		margin-top: 0px;
+    	font-size: 16px;
+    }
+	header .container h1.blogname a {
+    	font-size: 20px;
+	}
+	nav.main-menu {
+		height: 100px;
+	}
+	.overlay {
+		height: 300px;
+	}
+	.newest-projects{ 
+		opacity: 1
+	}
+	.singleblog .main-header-title {
+		font-size: 2em;
+		margin-top: 2.5em;
+	}
+	.img img {
+		width: 100%;
+		height: 100%;
+	}
+	#menu-main-menu-1 {
+		display: none;
+	}
+	nav .menu li {
+		width: 100%;
+    	text-align: right;
+	}
+	a.responsive-navigation_btn {
+   		background: none;
+	    position: absolute;
+	    top: 24px;
+	    right: 0px;
+	}
+	nav.main-menu .menu li {
+    	text-align: center;
+    }
+    nav.main-menu .menu {
+    	margin: 0px;
+	}
+	div.responsive-navigation_menu{
+		background: none;
+	}
+
+	div.responsive-navigation_nav {
+	    background: rgba(35, 40, 45, 0.77);
+    	position: absolute;
+    	top: 65px;
+    	left: 0;
+    	right: 0;
+	}
+}
