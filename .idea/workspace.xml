@@ -2,633 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d77d7e44-f324-4bd7-a279-3c97b1114489" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/custom portfolio/header-home.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/custom portfolio/projects-page-template.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/custom portfolio/js/main.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/wp-config.php" afterPath="$PROJECT_DIR$/wp-config.php" />
       <change beforePath="$PROJECT_DIR$/wp-content/debug.log" afterPath="$PROJECT_DIR$/wp-content/debug.log" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/changelog.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/classes/class.cptui_admin_ui.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/classes/class.cptui_debug_info.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/css/cptui.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/css/cptui.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/css/cptui.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/custom-post-type-ui.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/images/cptui-icon-128x128.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/images/cptui-icon-173x173.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/images/cptui-icon-256x256.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/images/wds_ads/apppresser.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/images/wds_ads/cptuix-ad-3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/images/wds_ads/maintainn.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/inc/about.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/inc/listings.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/inc/post-types.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/inc/support.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/inc/taxonomies.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/inc/tools.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/inc/utility.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/js/cptui.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/js/cptui.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/readme.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/illdy-companion/css/admin.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/illdy-companion/illdy-companion.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/illdy-companion/illdy-demo-content.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/illdy-companion/js/admin.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/illdy-companion/readme.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/illdy-companion/widgets/class-widget-counter.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/illdy-companion/widgets/class-widget-person.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/illdy-companion/widgets/class-widget-project.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/illdy-companion/widgets/class-widget-recent-posts.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/illdy-companion/widgets/class-widget-service.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/illdy-companion/widgets/class-widget-skill.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/kiwi-social-share/assets/back-end/css/back-end-styles.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/kiwi-social-share/assets/back-end/images/kiwi-logo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/kiwi-social-share/assets/back-end/images/kiwi-menu-icon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/kiwi-social-share/assets/back-end/images/kiwi-share-leaf-style.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/kiwi-social-share/assets/back-end/images/kiwi-share-pill-style.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/kiwi-social-share/assets/back-end/images/kiwi-share-shift-style.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/kiwi-social-share/assets/back-end/images/kiwi-share-square-style.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/kiwi-social-share/assets/back-end/images/social-icons/email-icon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/kiwi-social-share/assets/back-end/images/social-icons/facebook-icon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/kiwi-social-share/assets/back-end/images/social-icons/google-plus-icon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/kiwi-social-share/assets/back-end/images/social-icons/linkedin-icon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/kiwi-social-share/assets/back-end/images/social-icons/pinterest-icon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/kiwi-social-share/assets/back-end/images/social-icons/reddit-icon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/kiwi-social-share/assets/back-end/images/social-icons/twitter-icon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/kiwi-social-share/assets/back-end/images/sortable-helper.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/kiwi-social-share/assets/back-end/images/twitter.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/kiwi-social-share/assets/back-end/js/settings-panel.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/kiwi-social-share/assets/front-end/css/front-end-styles.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/kiwi-social-share/assets/front-end/js/front-end-scripts.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/kiwi-social-share/inc/back-end/class.settings-panel.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/kiwi-social-share/inc/class.plugin-utilities.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/kiwi-social-share/inc/front-end/class.render-share-bar.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/kiwi-social-share/kiwi-social-share.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/kiwi-social-share/license.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/kiwi-social-share/readme.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/kiwi-social-share/uninstall.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loginizer/facebook.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loginizer/functions.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loginizer/index.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loginizer/init.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loginizer/license.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loginizer/loginizer-200.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loginizer/loginizer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loginizer/readme.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loginizer/screenshot-1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loginizer/screenshot-2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loginizer/screenshot-3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/loginizer/twitter.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/addons/addons.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/addons/images/Add_Ons.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/addons/images/Add_Ons_hover.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/addons/images/add-ons-icon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/addons/images/coming_soon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/addons/images/ecommerce.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/addons/images/facebook.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/addons/images/import_export.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/addons/images/nextgen_gallery.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/addons/style.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/admin/controllers/BWGControllerAddAlbumsGalleries.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/admin/controllers/BWGControllerAddTags.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/admin/controllers/BWGControllerAlbums_bwg.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/admin/controllers/BWGControllerBWGShortcode.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/admin/controllers/BWGControllerEditThumb.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/admin/controllers/BWGControllerGalleries_bwg.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/admin/controllers/BWGControllerLicensing_bwg.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/admin/controllers/BWGControllerOptions_bwg.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/admin/controllers/BWGControllerTags_bwg.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/admin/controllers/BWGControllerThemes_bwg.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/admin/controllers/BWGControllerUninstall_bwg.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/admin/controllers/BWGControllerWidget.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/admin/controllers/BWGControllerWidgetSlideshow.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/admin/controllers/BWGControllerWidgetTags.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/admin/models/BWGModelAddAlbumsGalleries.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/admin/models/BWGModelAddTags.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/admin/models/BWGModelAlbums_bwg.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/admin/models/BWGModelBWGShortcode.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/admin/models/BWGModelEditThumb.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/admin/models/BWGModelGalleries_bwg.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/admin/models/BWGModelLicensing_bwg.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/admin/models/BWGModelOptions_bwg.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/admin/models/BWGModelTags_bwg.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/admin/models/BWGModelThemes_bwg.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/admin/models/BWGModelUninstall_bwg.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/admin/models/BWGModelWidget.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/admin/models/BWGModelWidgetSlideshow.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/admin/models/BWGModelWidgetTags.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/admin/views/BWGViewAddAlbumsGalleries.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/admin/views/BWGViewAddTags.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/admin/views/BWGViewAlbums_bwg.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/admin/views/BWGViewBWGShortcode.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/admin/views/BWGViewEditThumb.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/admin/views/BWGViewGalleries_bwg.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/admin/views/BWGViewLicensing_bwg.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/admin/views/BWGViewOptions_bwg.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/admin/views/BWGViewTags_bwg.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/admin/views/BWGViewThemes_bwg.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/admin/views/BWGViewUninstall_bwg.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/admin/views/BWGViewWidget.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/admin/views/BWGViewWidgetSlideshow.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/admin/views/BWGViewWidgetTags.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/css/bwg_edit_image.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/css/bwg_frontend.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/css/bwg_licensing.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/css/bwg_shortcode.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/css/bwg_tables.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/css/font-awesome/font-awesome.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/css/font-awesome/fonts/FontAwesome.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/css/font-awesome/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/css/font-awesome/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/css/font-awesome/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/css/font-awesome/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/css/font-awesome/fonts/fontawesome-webfont.woff2" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/css/font-awesome/less/animated.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/css/font-awesome/less/bordered-pulled.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/css/font-awesome/less/core.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/css/font-awesome/less/fixed-width.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/css/font-awesome/less/font-awesome.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/css/font-awesome/less/icons.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/css/font-awesome/less/larger.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/css/font-awesome/less/list.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/css/font-awesome/less/mixins.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/css/font-awesome/less/path.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/css/font-awesome/less/rotated-flipped.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/css/font-awesome/less/screen-reader.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/css/font-awesome/less/stacked.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/css/font-awesome/less/variables.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/css/font-awesome/scss/_animated.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/css/font-awesome/scss/_bordered-pulled.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/css/font-awesome/scss/_core.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/css/font-awesome/scss/_fixed-width.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/css/font-awesome/scss/_icons.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/css/font-awesome/scss/_larger.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/css/font-awesome/scss/_list.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/css/font-awesome/scss/_mixins.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/css/font-awesome/scss/_path.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/css/font-awesome/scss/_rotated-flipped.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/css/font-awesome/scss/_screen-reader.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/css/font-awesome/scss/_stacked.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/css/font-awesome/scss/_variables.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/css/font-awesome/scss/font-awesome.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/css/images/animated-overlay.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/css/images/arrow3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/css/images/minus.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/css/images/plus.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/css/images/ui-bg_diagonals-thick_18_b81900_40x40.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/css/images/ui-bg_diagonals-thick_20_666666_40x40.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/css/images/ui-bg_flat_10_000000_40x100.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/css/images/ui-bg_glass_100_f6f6f6_1x400.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/css/images/ui-bg_glass_100_fdf5ce_1x400.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/css/images/ui-bg_glass_65_ffffff_1x400.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/css/images/ui-bg_gloss-wave_35_f6a828_500x100.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/css/images/ui-bg_highlight-soft_100_eeeeee_1x100.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/css/images/ui-bg_highlight-soft_75_ffe45c_1x100.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/css/images/ui-icons_222222_256x240.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/css/images/ui-icons_228ef1_256x240.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/css/images/ui-icons_ef8c08_256x240.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/css/images/ui-icons_ffd27a_256x240.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/css/images/ui-icons_ffffff_256x240.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/css/jquery-ui-1.10.3.custom.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/css/jquery.mCustomScrollbar.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/css/notices.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/css/sumoselect.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/featured/featured.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/featured/featured_themes.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/featured/images/best_magazine.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/featured/images/business_elite.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/featured/images/business_world.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/featured/images/catalog.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/featured/images/contact.builder.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/featured/images/contact.maker.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/featured/images/contacts.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/featured/images/down.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/featured/images/download_plugins.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/featured/images/ecommerce.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/featured/images/events-wd.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/featured/images/facebook.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/featured/images/faq.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/featured/images/faq_wd.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/featured/images/flash.calendar.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/featured/images/fm-import.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/featured/images/folder.menu.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/featured/images/form.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/featured/images/google-maps.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/featured/images/instagram_feed.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/featured/images/news_magazine.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/featured/images/photo-gallery.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/featured/images/player.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/featured/images/portfolio.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/featured/images/post-slider.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/featured/images/random.post.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/featured/images/sauron.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/featured/images/slider.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/featured/images/spider.calendar.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/featured/images/twittertools.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/featured/images/zoom.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/featured/style.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/featured/themes_style.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/UploadHandler.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/controller.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/css/default.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/css/default_view_list.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/css/default_view_thumbs.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/css/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/btn_icons/back.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/btn_icons/copy.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/btn_icons/create_dir.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/btn_icons/cut.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/btn_icons/delete.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/btn_icons/divider.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/btn_icons/import.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/btn_icons/imports.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/btn_icons/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/btn_icons/paste.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/btn_icons/rename.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/btn_icons/sort_asc.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/btn_icons/sort_desc.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/btn_icons/up.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/btn_icons/upload.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/btn_icons/uploads.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/btn_icons/view_list.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/btn_icons/view_thumbs.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/btn_row_move_down.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/btn_row_move_up.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/btn_row_remove.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/file_icons/_blank.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/file_icons/_page.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/file_icons/aac.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/file_icons/ai.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/file_icons/aiff.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/file_icons/avi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/file_icons/bmp.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/file_icons/c.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/file_icons/cpp.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/file_icons/css.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/file_icons/dat.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/file_icons/dir.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/file_icons/dmg.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/file_icons/doc.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/file_icons/dotx.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/file_icons/dwg.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/file_icons/dxf.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/file_icons/eps.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/file_icons/exe.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/file_icons/flv.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/file_icons/gif.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/file_icons/h.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/file_icons/hpp.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/file_icons/html.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/file_icons/ics.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/file_icons/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/file_icons/iso.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/file_icons/java.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/file_icons/jpeg.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/file_icons/jpg.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/file_icons/key.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/file_icons/mid.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/file_icons/mp3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/file_icons/mp4.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/file_icons/mpg.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/file_icons/odf.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/file_icons/ods.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/file_icons/odt.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/file_icons/otp.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/file_icons/ots.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/file_icons/ott.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/file_icons/pdf.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/file_icons/php.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/file_icons/png.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/file_icons/ppt.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/file_icons/psd.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/file_icons/py.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/file_icons/qt.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/file_icons/rar.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/file_icons/rb.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/file_icons/rtf.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/file_icons/sql.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/file_icons/tga.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/file_icons/tgz.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/file_icons/tiff.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/file_icons/txt.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/file_icons/wav.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/file_icons/xls.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/file_icons/xlsx.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/file_icons/xml.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/file_icons/yml.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/file_icons/zip.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/icons/add-new.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/icons/apply.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/icons/cancel.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/icons/checkout-option.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/icons/close-red.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/icons/delete.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/icons/edit.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/icons/media.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/icons/save.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/images/progressbar.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/js/default.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/js/jq_uploader/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/js/jq_uploader/jquery.fileupload.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/js/jq_uploader/jquery.iframe-transport.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/js/jq_uploader/jquery.upload-1.0.2.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/model.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/view.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/fonts/arial.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/framework/BWGOptions.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/framework/WDWLibrary.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/framework/WDWLibraryEmbed.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/frontend/controllers/BWGControllerAlbum_compact_preview.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/frontend/controllers/BWGControllerAlbum_extended_preview.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/frontend/controllers/BWGControllerGalleryBox.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/frontend/controllers/BWGControllerImage_browser.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/frontend/controllers/BWGControllerSlideshow.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/frontend/controllers/BWGControllerThumbnails.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/frontend/controllers/BWGControllerWidget.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/frontend/models/BWGModelAlbum_compact_preview.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/frontend/models/BWGModelAlbum_extended_preview.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/frontend/models/BWGModelGalleryBox.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/frontend/models/BWGModelImage_browser.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/frontend/models/BWGModelSlideshow.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/frontend/models/BWGModelThumbnails.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/frontend/models/BWGModelWidget.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/frontend/views/BWGViewAlbum_compact_preview.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/frontend/views/BWGViewAlbum_extended_preview.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/frontend/views/BWGViewGalleryBox.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/frontend/views/BWGViewImage_browser.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/frontend/views/BWGViewSlideshow.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/frontend/views/BWGViewThumbnails.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/Carousel.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/Gallery-E-Commerce-banner.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/ajax_loader.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/ajax_loader.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/album_compact_preview.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/album_extended_preview.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/blank.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/blog_style.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/captcha_refresh.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/crop.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/delete.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/effects/active.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/effects/arrow.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/effects/brightness.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/effects/contrast.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/effects/dark_slate_grey.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/effects/flip_both.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/effects/flip_horizontal.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/effects/flip_vertical.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/effects/grayscale.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/effects/negative.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/effects/option.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/effects/remove.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/effects/rotate_left.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/effects/rotate_right.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/effects/saturate.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/effects/sepia.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/icons/add-new.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/icons/add_prieview_image.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/icons/album-icon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/icons/apply.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/icons/arrow.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/icons/best-wordpress-gallery.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/icons/bulk_embed.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/icons/bwg_shortcode.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/icons/cancel.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/icons/close-red.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/icons/comment-icon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/icons/delete.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/icons/delete_red.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/icons/edit.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/icons/edits.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/icons/email-option.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/icons/gallery-icon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/icons/general-option-hover.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/icons/general-option.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/icons/import.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/icons/layer.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/icons/media.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/icons/order_column.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/icons/publish-blue.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/icons/reset.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/icons/save.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/icons/save_order.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/icons/search.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/icons/tag-icon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/icons/theme-icon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/icons/tumbnail.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/icons/unpublish-red.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/icons/watermark.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/image_browser.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/logo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/no-image.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/notice.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/short_extended_preview.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/slideshow.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/theme_blog_style.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/theme_carousel.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/theme_compact_album.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/theme_extended_album.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/theme_image_browser.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/theme_lightbox.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/theme_masonry.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/theme_masonry_album.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/theme_mosaic.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/theme_page_navigation.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/theme_slideshow.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/theme_thumbnails.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/thumbnails.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/thumbnails_masonry.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/thumbnails_mosaic.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/uninstall-icon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/watermark.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/watermark_preview.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/includes/bwg_pointers.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/js/bwg.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/js/bwg_editor_button.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/js/bwg_embed.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/js/bwg_frontend.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/js/bwg_gallery_box.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/js/bwg_shortcode.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/js/images/bwg_edit_but.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/js/jquery.fullscreen-0.4.1.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/js/jquery.mCustomScrollbar.concat.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/js/jquery.mobile.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/js/jquery.sumoselect.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/js/jscolor/arrow.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/js/jscolor/cross.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/js/jscolor/hs.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/js/jscolor/hv.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/js/jscolor/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/js/jscolor/jscolor.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/backend/bwg_back-de_DE.mo" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/backend/bwg_back-de_DE.po" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/backend/bwg_back-es_ES.mo" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/backend/bwg_back-es_ES.po" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/backend/bwg_back-fi.mo" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/backend/bwg_back-fi.po" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/backend/bwg_back-fr_FR.mo" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/backend/bwg_back-fr_FR.po" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/backend/bwg_back-hi_IN.mo" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/backend/bwg_back-hi_IN.po" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/backend/bwg_back-it_IT.mo" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/backend/bwg_back-it_IT.po" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/backend/bwg_back-nl_NL.mo" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/backend/bwg_back-nl_NL.po" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/backend/bwg_back-pt_PT.mo" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/backend/bwg_back-pt_PT.po" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/backend/bwg_back-ro_RO.mo" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/backend/bwg_back-ro_RO.po" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/backend/bwg_back-ru_RU.mo" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/backend/bwg_back-ru_RU.po" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/backend/bwg_back-tr_TR.mo" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/backend/bwg_back-tr_TR.po" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/backend/bwg_back-zh_CN.mo" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/backend/bwg_back-zh_CN.po" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-af.mo" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-af.po" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-ar.mo" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-ar.po" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-be_BY.mo" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-be_BY.po" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-bg_BG.mo" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-bg_BG.po" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-ca.mo" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-ca.po" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-cs_CZ.mo" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-cs_CZ.po" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-da_DK.mo" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-da_DK.po" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-de_DE.mo" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-de_DE.po" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-el.mo" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-el.po" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-en_US.mo" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-en_US.po" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-eo_EO.mo" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-eo_EO.po" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-es_ES.mo" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-es_ES.po" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-et.mo" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-et.po" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-fa_IR.mo" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-fa_IR.po" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-fi.mo" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-fi.po" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-fr_FR.mo" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-fr_FR.po" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-gl_ES.mo" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-gl_ES.po" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-he_IL.mo" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-he_IL.po" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-hi_IN.mo" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-hi_IN.po" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-hr.mo" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-hr.po" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-hu_HU.mo" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-hu_HU.po" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-hy_AM.mo" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-hy_AM.po" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-id_ID.mo" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-id_ID.po" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-is_IS.mo" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-is_IS.po" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-it_IT.mo" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-it_IT.po" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-ja.mo" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-ja.po" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-ka_GE.mo" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-ka_GE.po" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-ko_KR.mo" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-ko_KR.po" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-lt_LT.mo" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-lt_LT.po" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-lv.mo" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-lv.po" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-mk_MK.mo" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-mk_MK.po" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-ms_MY.mo" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-ms_MY.po" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-mt_MT.mo" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-mt_MT.po" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-nb_NO.mo" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-nb_NO.po" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-nl_NL.mo" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-nl_NL.po" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-pl_PL.mo" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-pl_PL.po" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-pt_BR.mo" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-pt_BR.po" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-pt_PT.mo" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-pt_PT.po" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-ro_RO.mo" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-ro_RO.po" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-ru_RU.mo" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-ru_RU.po" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-sk_SK.mo" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-sk_SK.po" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-sl.mo" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-sl.po" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-sq.mo" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-sq.po" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-sr_RS.mo" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-sr_RS.po" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-sv_SE.mo" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-sv_SE.po" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-ta.mo" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-ta.po" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-th.mo" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-th.po" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-tr_TR.mo" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-tr_TR.po" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-uk_UA.mo" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-uk_UA.po" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-vi.mo" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-vi.po" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-zh_CN.mo" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-zh_CN.po" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/photo-gallery-notices.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/photo-gallery.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/readme.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/update/bwg_update.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-navigation/assets/css/slicknav.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-navigation/assets/js/jquery.slicknav.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-navigation/metabox/Gruntfile.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-navigation/metabox/helpers/cmb_Meta_Box_Sanitize.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-navigation/metabox/helpers/cmb_Meta_Box_Show_Filters.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-navigation/metabox/helpers/cmb_Meta_Box_ajax.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-navigation/metabox/helpers/cmb_Meta_Box_field.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-navigation/metabox/helpers/cmb_Meta_Box_types.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-navigation/metabox/images/ico-delete.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-navigation/metabox/images/ui-bg_flat_0_aaaaaa_40x100.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-navigation/metabox/images/ui-bg_flat_75_ffffff_40x100.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-navigation/metabox/images/ui-bg_glass_55_fbf9ee_1x400.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-navigation/metabox/images/ui-bg_glass_65_ffffff_1x400.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-navigation/metabox/images/ui-bg_glass_75_dadada_1x400.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-navigation/metabox/images/ui-bg_glass_75_e6e6e6_1x400.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-navigation/metabox/images/ui-bg_glass_95_fef1ec_1x400.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-navigation/metabox/images/ui-bg_highlight-soft_75_cccccc_1x100.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-navigation/metabox/images/ui-icons_222222_256x240.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-navigation/metabox/images/ui-icons_2e83ff_256x240.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-navigation/metabox/images/ui-icons_454545_256x240.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-navigation/metabox/images/ui-icons_888888_256x240.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-navigation/metabox/images/ui-icons_cd0a0a_256x240.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-navigation/metabox/init.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-navigation/metabox/js/cmb.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-navigation/metabox/js/cmb.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-navigation/metabox/js/jquery.datePicker.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-navigation/metabox/js/jquery.timePicker.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-navigation/metabox/style.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-navigation/metabox/style.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-navigation/readme.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-navigation/responsive-navigation.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-navigation/screenshot-1.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-navigation/screenshot-2.jpeg" afterPath="" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/custom portfolio/archive.php" afterPath="$PROJECT_DIR$/wp-content/themes/custom portfolio/archive.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/custom portfolio/footer.php" afterPath="$PROJECT_DIR$/wp-content/themes/custom portfolio/footer.php" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/custom portfolio/front-page.php" afterPath="$PROJECT_DIR$/wp-content/themes/custom portfolio/front-page.php" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/custom portfolio/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/custom portfolio/functions.php" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/custom portfolio/header.php" afterPath="$PROJECT_DIR$/wp-content/themes/custom portfolio/header.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/custom portfolio/page-projects.php" afterPath="$PROJECT_DIR$/wp-content/themes/custom portfolio/page-projects.php" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/custom portfolio/page.php" afterPath="$PROJECT_DIR$/wp-content/themes/custom portfolio/page.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/custom portfolio/projects-page-template.php" afterPath="$PROJECT_DIR$/wp-content/themes/custom portfolio/projects-page-template.php" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/custom portfolio/single.php" afterPath="$PROJECT_DIR$/wp-content/themes/custom portfolio/single.php" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/custom portfolio/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/custom portfolio/style.css" />
     </list>
@@ -640,63 +24,34 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="front-page.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/custom portfolio/front-page.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="26" column="18" lean-forward="false" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+            <state relative-caret-position="220">
+              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding>
-                <element signature="e#847#897#0#HTML" expanded="true" />
-                <marker date="1531953740000" expanded="true" signature="1621:1801" ph="..." />
-                <marker date="1531953740000" expanded="true" signature="1761:1801" ph="..." />
-                <marker date="1531953740000" expanded="false" signature="2190:2235" ph="..." />
-                <marker date="1531953740000" expanded="true" signature="2236:2424" ph="..." />
-                <marker date="1531953740000" expanded="true" signature="2326:2391" ph="..." />
+                <marker date="1532548960000" expanded="false" signature="854:896" ph="..." />
+                <marker date="1532548960000" expanded="true" signature="897:1000" ph="..." />
+                <marker date="1532548960000" expanded="true" signature="920:1000" ph="..." />
+                <marker date="1532548960000" expanded="true" signature="949:1000" ph="..." />
+                <marker date="1532548960000" expanded="true" signature="958:1000" ph="..." />
+                <marker date="1532548960000" expanded="true" signature="1288:1331" ph="..." />
+                <marker date="1532548960000" expanded="true" signature="1582:1762" ph="..." />
+                <marker date="1532548960000" expanded="true" signature="1722:1762" ph="..." />
+                <marker date="1532548960000" expanded="false" signature="2151:2196" ph="..." />
+                <marker date="1532548960000" expanded="true" signature="2197:2385" ph="..." />
+                <marker date="1532548960000" expanded="true" signature="2287:2352" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="projects-page-template.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/custom portfolio/projects-page-template.php">
+      <file leaf-file-name="single.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/custom portfolio/single.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="34" column="22" lean-forward="false" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
-              <folding>
-                <element signature="e#728#781#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/custom portfolio/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="83" column="21" lean-forward="false" selection-start-line="83" selection-start-column="21" selection-end-line="83" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/custom portfolio/header.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="30" column="21" lean-forward="false" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
-              <folding>
-                <element signature="e#605#655#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wp-config.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-config.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="564">
-              <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+            <state relative-caret-position="75">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -705,18 +60,63 @@
       <file leaf-file-name="archive.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/custom portfolio/archive.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="26" column="36" lean-forward="false" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+            <state relative-caret-position="210">
+              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding>
+                <element signature="e#745#798#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/custom portfolio/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="33" lean-forward="false" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+              <folding>
+                <element signature="e#7#52#0#PHP" expanded="true" />
+                <element signature="e#711#816#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/custom portfolio/footer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="23" column="37" lean-forward="false" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/custom portfolio/page.php">
+      <file leaf-file-name="projects-page-template.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/custom portfolio/projects-page-template.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+            <state relative-caret-position="285">
+              <caret line="21" column="24" lean-forward="false" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="59" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/custom portfolio/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="236" column="35" lean-forward="false" selection-start-line="236" selection-start-column="35" selection-end-line="236" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/custom portfolio/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -725,24 +125,21 @@
       <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/custom portfolio/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="47" column="9" lean-forward="false" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="portfolios.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wp-content/plugins/jetpack/modules/custom-post-types/portfolios.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1040">
-              <caret line="3" column="53" lean-forward="false" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="53" />
+            <state relative-caret-position="293">
+              <caret line="26" column="23" lean-forward="false" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -754,7 +151,6 @@
       <find>my-career-title</find>
       <find>main-title</find>
       <find>blogname</find>
-      <find>menu</find>
       <find>sidebar</find>
       <find>main-logo</find>
       <find>.category</find>
@@ -764,7 +160,22 @@
       <find>CUSTOM_POST_TYPE</find>
       <find>logo</find>
       <find>description</find>
+      <find>.site-title</find>
+      <find>min-height</find>
+      <find>all-pages-header h2</find>
+      <find>main</find>
+      <find>.half-</find>
+      <find>icon</find>
+      <find>menu</find>
+      <find>category</find>
+      <find>r</find>
+      <find>.hero-content h1.page-title</find>
+      <find>ul#menu-home-page-menu li</find>
+      <find>border-top</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -774,14 +185,18 @@
       <list>
         <option value="$PROJECT_DIR$/wp-config.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/custom portfolio/header-home.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/custom portfolio/single.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/custom portfolio/page.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/custom portfolio/archive.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/custom portfolio/projects-page-template.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/custom portfolio/page-projects.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/custom portfolio/single.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/draft-portfolio/footer.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/custom portfolio/functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/custom portfolio/footer.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/custom portfolio/projects-page-template.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/custom portfolio/archive.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/custom portfolio/front-page.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/custom portfolio/style.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/custom portfolio/header.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/custom portfolio/js/main.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/custom portfolio/style.css" />
       </list>
     </option>
   </component>
@@ -792,7 +207,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="2560" />
     <option name="y" value="91" />
     <option name="width" value="1680" />
@@ -831,26 +246,6 @@
               <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
               <item name="htdocs" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="plugins" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="htdocs" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="plugins" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="jetpack" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="htdocs" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="plugins" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="siteorigin-panels" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="htdocs" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -859,6 +254,14 @@
               <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="custom portfolio" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="htdocs" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="custom portfolio" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
@@ -876,7 +279,13 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="Portfolio&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="header-img&#9;null&#9;null&#10;Portfolio&#9;null&#9;null" />
+    <property name="node.js.path.for.package.jscs" value="project" />
+    <property name="node.js.detected.package.jscs" value="true" />
+    <property name="node.js.selected.package.jscs" value="/usr/local/lib/node_modules/jscs" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -903,34 +312,35 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1531931656642</updated>
-      <workItem from="1531931657797" duration="17110000" />
+      <workItem from="1531931657797" duration="17351000" />
+      <workItem from="1532533982655" duration="17203000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17110000" />
+    <option name="totallyTimeSpent" value="34554000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2560" y="91" width="1680" height="1050" extended-state="0" />
+    <frame x="2560" y="114" width="1680" height="1027" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24969475" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25274727" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914045" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914045" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -945,13 +355,82 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/custom portfolio/front-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="26" column="18" lean-forward="false" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/custom portfolio/projects-page-template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="22" lean-forward="false" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/custom portfolio/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1245">
+          <caret line="83" column="21" lean-forward="false" selection-start-line="83" selection-start-column="21" selection-end-line="83" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/custom portfolio/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="30" column="21" lean-forward="false" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/custom portfolio/archive.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="26" column="36" lean-forward="false" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/custom portfolio/page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/custom portfolio/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="47" column="9" lean-forward="false" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/jetpack/modules/custom-post-types/portfolios.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="102" column="25" lean-forward="true" selection-start-line="102" selection-start-column="25" selection-end-line="102" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-cron.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1531930477000" expanded="true" signature="1553:1623" ph="SELECT optio... ${$wpdb-&gt;options}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -959,7 +438,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -993,22 +471,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/custom portfolio/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="93" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/custom portfolio/single.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="24" column="29" lean-forward="false" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/custom portfolio/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1021,50 +483,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-575">
           <caret line="11" column="40" lean-forward="true" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/jetpack/modules/custom-post-types/portfolios.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="102" column="25" lean-forward="true" selection-start-line="102" selection-start-column="25" selection-end-line="102" selection-end-column="25" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/custom portfolio/projects-page-template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="34" column="22" lean-forward="false" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
-          <folding>
-            <element signature="e#728#781#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/custom portfolio/front-page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="26" column="18" lean-forward="false" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
-          <folding>
-            <element signature="e#847#897#0#HTML" expanded="true" />
-            <marker date="1531953740000" expanded="true" signature="1621:1801" ph="..." />
-            <marker date="1531953740000" expanded="true" signature="1761:1801" ph="..." />
-            <marker date="1531953740000" expanded="false" signature="2190:2235" ph="..." />
-            <marker date="1531953740000" expanded="true" signature="2236:2424" ph="..." />
-            <marker date="1531953740000" expanded="true" signature="2326:2391" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/custom portfolio/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="83" column="21" lean-forward="false" selection-start-line="83" selection-start-column="21" selection-end-line="83" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/custom portfolio/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="30" column="21" lean-forward="false" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
-          <folding>
-            <element signature="e#605#655#0#HTML" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1076,34 +502,133 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/custom portfolio/archive.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/jetpack/modules/minileven/theme/pub/minileven/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="26" column="36" lean-forward="false" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+        <state relative-caret-position="294">
+          <caret line="328" column="1" lean-forward="false" selection-start-line="328" selection-start-column="1" selection-end-line="328" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/uploads/2017/03/lid-factoryDIGITIZING-272x182.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/custom portfolio/page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+        <state relative-caret-position="90">
+          <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/draft-portfolio/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#249#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/custom portfolio/page-projects.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="30" lean-forward="false" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+          <folding>
+            <element signature="e#6#8#0#PHP" expanded="false" />
+            <element signature="e#734#736#0#PHP" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/custom portfolio/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="47" column="9" lean-forward="false" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+        <state relative-caret-position="293">
+          <caret line="26" column="23" lean-forward="false" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/jetpack/modules/custom-post-types/portfolios.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/custom portfolio/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1040">
-          <caret line="3" column="53" lean-forward="false" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="53" />
+        <state relative-caret-position="315">
+          <caret line="23" column="37" lean-forward="false" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/custom portfolio/archive.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="e#745#798#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/custom portfolio/projects-page-template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="21" column="24" lean-forward="false" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/custom portfolio/front-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <marker date="1532548960000" expanded="false" signature="854:896" ph="..." />
+            <marker date="1532548960000" expanded="true" signature="897:1000" ph="..." />
+            <marker date="1532548960000" expanded="true" signature="920:1000" ph="..." />
+            <marker date="1532548960000" expanded="true" signature="949:1000" ph="..." />
+            <marker date="1532548960000" expanded="true" signature="958:1000" ph="..." />
+            <marker date="1532548960000" expanded="true" signature="1288:1331" ph="..." />
+            <marker date="1532548960000" expanded="true" signature="1582:1762" ph="..." />
+            <marker date="1532548960000" expanded="true" signature="1722:1762" ph="..." />
+            <marker date="1532548960000" expanded="false" signature="2151:2196" ph="..." />
+            <marker date="1532548960000" expanded="true" signature="2197:2385" ph="..." />
+            <marker date="1532548960000" expanded="true" signature="2287:2352" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/custom portfolio/single.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/custom portfolio/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="33" lean-forward="false" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+          <folding>
+            <element signature="e#7#52#0#PHP" expanded="true" />
+            <element signature="e#711#816#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/custom portfolio/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/custom portfolio/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="236" column="35" lean-forward="false" selection-start-line="236" selection-start-column="35" selection-end-line="236" selection-end-column="35" />
           <folding />
         </state>
       </provider>

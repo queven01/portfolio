@@ -6,14 +6,15 @@
 
 <?php get_header(); ?>
 
-    <section>
-        <nav class="category-menu clearfix">
+    <section class="all-projects">
+	    <nav class="category-navigation">
             <?php wp_nav_menu( array( 'theme_location' => 'category-menu' ) ); ?>
-        </nav>
-
+            <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("Category Menu") ) : ?>
+            <?php endif;?>
+	    </nav>
 	    <div class="row">
             <?php
-	            $args = array( 'post_type' => 'newest-projects', 'posts_per_page' => 13, 'orderby' => 'rand');
+	            $args = array( 'post_type' => 'jetpack-portfolio', 'posts_per_page' => 13, 'orderby' => 'rand');
 	            $loop = new WP_Query( $args );
 
 	            while ($loop->have_posts() ) : $loop->the_post(); ?>

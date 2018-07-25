@@ -14,16 +14,15 @@ The template for displaying the footer.
  			
  		</div>
  		<div class="col-md-4">
- 			<ul class="footer-nav">
- 				<li><a href="http://designnsuccess.com/contact/">Contact</a></li>
- 				<li><a href="http://designnsuccess.com/projects/">Projects</a></li>
- 				<li><a href="http://designnsuccess.com/about/">About</a></li>
- 			</ul>
+ 			<div class="footer-nav">
+                <?php wp_nav_menu( array( 'theme_location' => 'footer-menu-1' ) ); ?>
+                <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("Footer Menu 1") ) : ?>
+                <?php endif;?>
+ 			</div>
  		</div>
  	</div>
  	<div class="col-md-12 copyright">
- 		<p>Copyright 2017 Kevin Correa</p> 	
- 		<div class="icon-credit">Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+ 		<p>Copyright 2017 Kevin Correa</p>
  	</div>
  </footer>
 

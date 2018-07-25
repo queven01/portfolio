@@ -17,7 +17,7 @@ This is the template that displays all pages by default. Please note that this i
     <?php wp_head(); ?> <!-- used as a hook, must include -->
 </head>
 
-<?php $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID), 'main-img' ); ?>
+<?php $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID, 'main-img') ); ?>
 
 <header class="home-page-header" style="background-image: url(<?php echo $url ?>);">
 	<div class="overlay">
@@ -36,9 +36,7 @@ This is the template that displays all pages by default. Please note that this i
 	</div>
 </header>
 
-<body> <!-- left open, close in footer -->
-
-<section class="main">
+<section class="home-page">
     <?php if ( have_posts() ) : while ( have_posts() ) : the_post();
         the_content();
     endwhile;

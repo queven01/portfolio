@@ -8,9 +8,12 @@ This is the template that displays all pages by default. Please note that this i
 
 <?php get_header(); ?>
 
-<section class="main clearfix">
+<section class="main">
  	<div class="container">
-	    <?php the_content(); ?>
+        <?php if ( have_posts() ) : while ( have_posts() ) : the_post();
+            the_content();
+        endwhile;
+        endif; ?>
 	</div>
  </section>
  
