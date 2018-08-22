@@ -9,22 +9,13 @@ The template for diplaying all single post and attachments
  <section class="single-blog">
  	<div class="container">
 	    <div class="main">
-		    <div class="row">
 	            <?php
 	            if(have_posts()):
 	                while(have_posts()): ?>
 	                    <?php	the_post(); ?>
-					    <div class="col-md-6">
 	                        <?php the_content(); ?>
-					    </div>
-					    <div class="col-md-6">
-						    <p class="img">
-	                            <?php	the_post_thumbnail('main-img'); ?>
-						    </p>
-					    </div>
 	                <?php	endwhile;
 	            endif; ?>
-		    </div>
 	    </div>
  	 </div>
 
