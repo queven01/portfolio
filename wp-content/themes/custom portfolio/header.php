@@ -15,8 +15,9 @@ The template fro displaying the header.
 
 <?php $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID, 'large') ); ?>
 <?php $projects_featured_img = wp_get_attachment_url( get_post_thumbnail_id($post = 232, 'large') ); ?>
+<?php $blog_featured_img = wp_get_attachment_url( get_post_thumbnail_id($post = 298, 'large') ); // 307 on live site.?>
 
-<header class="all-pages-header" style="background-image: url(<?php if(is_archive()){ echo $projects_featured_img;} else {echo $url;}?>);">
+<header class="all-pages-header" style="background-image: url(<?php if(is_archive()){ echo $projects_featured_img;} elseif(is_home()){echo $blog_featured_img;} else {echo $url;}?>);">
 	<div class="overlay">
 		<nav class="main-menu">
 			<div class="nav-scroll-background"></div>
@@ -37,4 +38,3 @@ The template fro displaying the header.
 </header>
 
 <body> <!-- left open, close in footer -->
-<?php //$url = wp_get_attachment_url( get_post_thumbnail_id($post->ID), 'main-img' ); ?>

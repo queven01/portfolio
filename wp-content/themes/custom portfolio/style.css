@@ -238,29 +238,65 @@ section.all-projects, section.category {
 }
 
 /*---------------------------------------------- Category Page ----------------------------------------------*/
-.menu-category-container ul#menu-category{
+.menu-category-container ul#menu-category, ul#menu-blog-category-menu{
     text-align: center;
     margin: 0px;
     padding: 0px;
     background: #123637;
 
 }
-.menu-category-container ul#menu-category li {
+.menu-category-container ul#menu-category li, ul#menu-blog-category-menu li {
     display: inline-block;
 }
-.menu-category-container ul#menu-category li a {
+.menu-category-container ul#menu-category li a, ul#menu-blog-category-menu li a {
     display: inline-block;
     padding: 1.5rem 2rem;
     color: white;
 }
-.menu-category-container ul#menu-category li.current-menu-item{
+.menu-category-container ul#menu-category li.current-menu-item, ul#menu-blog-category-menu li.current-menu-item{
     background-color: #236567;
 }
-.menu-category-container ul#menu-category li a:hover {
+.menu-category-container ul#menu-category li a:hover, ul#menu-blog-category-menu li a:hover {
     background-color: #236567;
 }
 
 
+/* All Blog Posts */
+
+section.all-posts {
+    margin-top: 8px;
+    border-top: 30px solid #226568;
+}
+
+.newest-projects-expanded div {
+    font-size: 25px;
+    margin: 0px;
+    color: #226568;
+    font-weight: bold;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    opacity: 0;
+}
+.newest-projects-expanded:hover div {
+    background: rgba(34, 101, 104, 0.8);
+    opacity: 1;
+    color: #fff;
+    cursor: pointer;
+}
+.blog-post-view-single {
+    text-align: center;
+    padding: 60px 60px 0px 60px;
+    border-bottom: solid 60px rgba(0, 0, 0, 0);
+    overflow: hidden;
+}
+.blog-post-view-single h2.blog-title {
+    border-bottom: 2px solid white;
+}
+.blog-post-view-single p {
+    color: white;
+    font-weight: normal;
+}
 
 /*---------------------------------------------- Single Blog Post ----------------------------------------------*/
 section.single-blog{
@@ -412,6 +448,13 @@ footer h3 {
     section.single-blog, section.all-projects, section.category {
         margin-top: 3px;
     }
+    /*Gallery Style*/
+    .gallery-item {
+        width: 33% !important;
+    }
+    .gallery br {
+        display: none !important;
+    }
 }
 @media (max-width: 767px) {
     /*Homepage*/
@@ -489,6 +532,11 @@ footer h3 {
     .hero-content h1.page-title {
         font-size: 4rem;
         margin-bottom: -6px;
+    }
+    /*Gallery Style*/
+    .gallery-item {
+        width: 50% !important;
+
     }
 }
 

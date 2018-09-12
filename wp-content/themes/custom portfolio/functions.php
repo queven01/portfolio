@@ -26,6 +26,7 @@ function register_my_menu() {
     register_nav_menu('main-menu',__( 'Main Menu' ));
     register_nav_menu('category-menu',__( 'Category Menu' ));
     register_nav_menu('home-page-menu',__( 'Home Page Menu' ));
+    register_nav_menu('blog-category-menu',__( 'Blog Category Menu' ));
     register_nav_menu('footer-menu-1',__( 'Footer Menu 1' ));
 };
 
