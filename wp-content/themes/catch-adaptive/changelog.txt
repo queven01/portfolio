@@ -1,0 +1,97 @@
+== Changelog ==
+
+= 1.8.1 =
+* Bug Fixed: typo issue in the_archive_title() in catchadaptive_archive_page_header() function (Reported by ptrebilco )
+
+= 1.8 =
+* Bug Fixed: Reset Options in customizer updated
+* Updated: Used the_archive_title() and the_archive_description()
+* Removed: HTML script loading from catchadaptive_head() function and added it as wp_enqueue_script() in catchadaptive_head() function
+* Updated: fitvids handle to 'jquery-fitvids', sidr handle to 'jquery-sidr'
+* Updated: Upgrade Button in customizer with respect to trt decision
+* Updated: Custom CSS to Additional CSS( Core Support ) for WP version 4.7
+* Code Optimization
+
+= 1.7.1 =
+* Bug Fixed: Upgrade to pro button link
+
+= 1.7 =
+* Bug Fixed: white space issue
+* Bug Fixed: `sprintf() too few arguments` issue on other languages
+* Updated: Content Width Implementation Code
+* Updated: Tags in style.css header
+* Updated: All instances of catchthemes.com converted to https
+
+= 1.6 =
+* Bug Fixed: Slider image handle issue replaced catchadaptive_slider with catchadaptive-slider (Reported by mupa)
+* Removed: Extra code for function (image_slider, post_slider, category_slider)
+* Updated: Content Width Implementation
+* Updated: Theme Layout retrieval via function
+* Updated: Favicon and Web Clip Migration to Site Icon( Core Support )
+* Updated: Logo to Custom Logo( Core Support ) for WP version 4.5
+
+= 1.5 =
+* Added: Disable scrollup option
+* Added: Social Icons for Phone, Handset, Cart, Cloud, Link( Custom Link )
+* Bug Fixed: Featured Slider Transition Effect Not Updating
+* Bug Fixed: Genericions issue with To Top plugin
+* Enhanced: Used antispambot() function on emails output on social icons
+* Updated: Genericons to 3.4.1
+* Updated: Jetpack Scroll Pagination Option to enable infinite scroll in Reading Settings
+* Updated: Text Domain in style.css updated to catch-adaptive
+* Updated: Sidr menu script to version 2.1.1.1
+* Updated: Meta viewport for better responsive support
+
+= 1.4 =
+* Added German translation de_DE.po and de_DE.mo
+* Updated responsive menu js (jquery.sidr.js)
+
+= 1.3 =
+* Added Brazilian Portuguese translation pt_BR.po and pt_BR.mo
+* Bug Fixed: broken link for upgrade to pro button ( Reported by Brenda Evans )
+
+= 1.2.3 =
+* Bug Fixed: Breadcrumb css issue in IE 11
+* Removed panel for featured slider for WordPress version greater than 4.2
+* Updated Customizer active callback scripts (previously handled by jQuery)
+
+= 1.2 =
+* Added French translation fr_FR.po and fr_FR.mo
+
+= 1.1 =
+* Bug Fixed: Changed esc_attr_e to echo esc_attr in searchform.php
+* Bug Fixed: Header image issue in Mobile devices ( Reported by flypig )
+* Compatible with WordPress 4.3
+* Removed support for WordPress version less than 4.1
+* Updated codes to comply with deprecating PHP4 style constructors in WordPress 4.3
+* Updated text-domain
+
+= 1.0 =
+* Added: Missing keywords esc_attr_x:1,2c in .pot file
+* Updated: Theme Description and corrected link in readme.txt
+* Bug Fixed: Page header overlapping ( Reported by Jeff )
+* Bug Fixed: Replaced color for customizer
+** Light: Background color from #000000 to #ffffff
+** Dark: Background color from #000000 to #202020
+** Dark: Header Text color from #dddddd to #bebebe
+
+= 0.4 =
+* Changed screenshot
+
+= 0.3 =
+* Bug Fixed: Escaped missing options in slider, social icons and breadcrumb implementation
+* Changed the link for html5shiv in readme file
+* Made strings in demo featured content and slider translatable
+* Optimized Customizer Scripts
+* Removed unnecessary codes and bundled image file
+* Renamed Catchcatchadaptive to Catchadaptive
+
+= 0.2 =
+* Official release at CatchThemes.com
+* Bug Fixed: Color Scheme
+* Bug Fixed: Slider control font size
+* Bug Fixed: Page slider show excerpt option not working
+* Bug Fixed: Infinite Scroll issue with masonry
+
+= 0.1 =
+* Initial Release =

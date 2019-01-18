@@ -1,0 +1,547 @@
+/*
+ Theme Name: Custom Portfolio
+ Author: Kevin Correa
+ Description: Kevin's Portfolio
+ Version 1.0
+*/
+
+/*----------------------------------------------Global Styles----------------------------------------------*/
+body {
+	margin: 0px;
+	font-family: sans-serif;
+}
+.main {
+    padding: 5rem 0;
+}
+header h1, header h2 {
+	color: #fff;
+}
+
+h1{
+	font-size: 8rem;
+}
+h2 {
+	font-size: 4rem;
+}
+header a {
+	color: white;
+}
+header a:hover {
+	color: white;
+	text-decoration: none;
+}
+a {
+    text-decoration: none !important;
+}
+p{
+    font-size: 15px;
+    line-height: 1.5;
+    letter-spacing: 0;
+    color: #808993;
+}
+.btn-primary {
+	background:#1f6468;
+	border-color: #1f6468;
+}
+.btn-primary:hover {
+	background: #3a898d;
+	border-color: #1f6468;
+}
+.btn-ghost {
+	border-color: #fff;
+	color: #fff;
+}
+.btn-ghost:hover {
+	background: #1f6468;
+	border-color: #1f6468;
+	color: #fff;
+}
+.btn-large{
+	padding: 2rem 4rem;
+	font-size: 2rem;
+}
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+}
+.row {
+    margin: 0px;
+}
+/*----------------------------------------------Home Page Styles----------------------------------------------*/
+.home-page-header {
+	height: 100vh;
+    min-height: 800px;
+    background-position: center;
+    background-size: cover;
+}
+.home-page-header .hero-content {
+	position: absolute;
+	top: 14vh;
+	width: 100%;
+	padding: 2%;
+    text-align: center;
+}
+.home-page-header .call-to-action {
+	margin-top: 2.5%;
+}
+.home-page-header .main-logo {
+    width: 150px;
+    float: none;
+}
+ul#menu-home-page-menu {
+	padding: 0px;
+}
+ul#menu-home-page-menu li {
+    margin: 0 10px;
+}
+.hero-content h1.site-title {
+	font-weight: bold;
+    text-transform: uppercase;
+}
+.hero-content h2.description {
+    font-weight: 100;
+}
+
+/*----------------------------------------------Other Pages Styles----------------------------------------------*/
+.all-pages-header nav.main-menu {
+	background: transparent;
+	padding: 0 5% 0 5%;
+}
+.all-pages-header h2.blogname {
+	float: left;
+    line-height: .7;
+}
+.all-pages-header h2.blogname a {
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+.all-pages-header {
+	height: 30vh;
+	position: relative;
+    min-height: 250px;
+    background-position: center;
+    background-size: cover;
+}
+.all-pages-header .page-title {
+	font-size: 8em;
+	line-height: 0.5;
+}
+.all-pages-header .hero-content{
+	position: absolute;
+	text-align: center;
+	bottom: 0rem;
+	width: 100%;
+	padding: 5% 5% 0 5%;
+}
+.hero-content h1.page-title{
+    font-weight: bold;
+}
+nav.main-menu .menu {
+    float: right;
+    margin-top: 30px;
+}
+nav.main-menu .menu li {
+    float: left;
+    list-style-type: none;
+}
+nav.main-menu .menu li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: #fff;
+}
+nav.main-menu .menu li a:hover {
+    background: #fff;
+    color: #1f6468;
+    border-radius: 4px;
+    cursor: pointer;
+}
+nav.main-menu {
+    background: #1f6468;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+.main-logo {
+    float: left;
+    width: 50px;
+    margin: 15px 15px 15px 0;
+}
+.nav-scroll-background {
+    background: #2d2d2d;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    display: none;
+}
+
+/*----------------------------------------------FRONT PAGE----------------------------------------------*/
+/*.header-img {*/
+	/*background: url('http://designnsuccess.com/wp-content/uploads/2017/02/andrew-illarionov-26591.jpg');*/
+	/*background-size: cover;*/
+	/*background-repeat: no-repeat;*/
+	/*background-position: center;*/
+	/*background-attachment: fixed;*/
+    /*height: 500px;*/
+/*}*/
+
+
+
+/*---------------------------------------------Project Section & Projects Page----------------------------------------------*/
+.newest-projects-expanded {
+	background-size: cover !important;
+	background-repeat: no-repeat !important;
+	background-position: center !important;
+	background-color: black !important;
+	min-height: 400px;
+	transition-duration: .4s;
+    padding: 10px;
+}
+.newest-projects-expanded a {
+	text-decoration: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+.newest-projects-expanded h4 {
+	font-size: 25px;
+	margin: 0px;
+	color: #226568;
+	font-weight: bold;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0;
+}
+.newest-projects-expanded:hover h4 {
+	background: rgba(34, 101, 104, 0.8);
+	opacity: 1;
+	color: #fff;
+	cursor: pointer;
+}
+section.all-projects, section.category {
+    margin-top: 8px;
+    border-top: 30px solid #226568;
+}
+
+/*---------------------------------------------- Category Page ----------------------------------------------*/
+.menu-category-container ul#menu-category, ul#menu-blog-category-menu{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    background: #123637;
+
+}
+.menu-category-container ul#menu-category li, ul#menu-blog-category-menu li {
+    display: inline-block;
+}
+.menu-category-container ul#menu-category li a, ul#menu-blog-category-menu li a {
+    display: inline-block;
+    padding: 1.5rem 2rem;
+    color: white;
+}
+.menu-category-container ul#menu-category li.current-menu-item, ul#menu-blog-category-menu li.current-menu-item{
+    background-color: #236567;
+}
+.menu-category-container ul#menu-category li a:hover, ul#menu-blog-category-menu li a:hover {
+    background-color: #236567;
+}
+
+
+/* All Blog Posts */
+
+section.all-posts {
+    margin-top: 8px;
+    border-top: 30px solid #226568;
+}
+
+.newest-projects-expanded div {
+    font-size: 25px;
+    margin: 0px;
+    color: #226568;
+    font-weight: bold;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    opacity: 0;
+}
+.newest-projects-expanded:hover div {
+    background: rgba(34, 101, 104, 0.8);
+    opacity: 1;
+    color: #fff;
+    cursor: pointer;
+}
+.blog-post-view-single {
+    text-align: center;
+    padding: 60px 60px 0px 60px;
+    border-bottom: solid 60px rgba(0, 0, 0, 0);
+    overflow: hidden;
+}
+.blog-post-view-single h2.blog-title {
+    border-bottom: 2px solid white;
+}
+.blog-post-view-single p {
+    color: white;
+    font-weight: normal;
+}
+
+/*---------------------------------------------- Single Blog Post ----------------------------------------------*/
+section.single-blog{
+    margin-top: 8px;
+    border-top: 30px solid #226568;
+}
+.single-blog .img img {
+    width: 100%;
+    height: 100%;
+}
+
+/*----------------------------------------------Category Pages ----------------------------------------------*/
+.error-page{
+    text-align: center;
+    padding: 5rem 0;
+}
+
+
+/*----------------------------------------------Contact Page----------------------------------------------*/
+.contact-form h3.widget-title {
+	text-align: center;
+	padding: 30px 0px;
+}
+.contact-form div input[type='text'], .contact-form div input[type='email'], .contact-form div textarea {
+    width: 100%;
+    max-width: 100%;
+    border: 1px solid #c3c3c3;
+    font-size: 2rem;
+    padding: 1rem;
+}
+.contact-submit {
+    text-align: center;
+}
+.contact-submit input[type='submit'] {
+    width: 200px;
+    color: white;
+    height: 50px;
+    background-color: #F44336;
+    border: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+/*---------------------------------------------- Footer Styles ----------------------------------------------*/
+footer {
+	min-height: 150px;
+	background-color: #3a3b3c;
+	color: #929292;
+}
+footer h3 {
+	text-align: center;
+	margin-top: 30px;
+}
+.menu-footer-menu-1-container ul{
+    list-style-type: none;
+}
+.footer-nav {
+	margin-top: 30px;
+	list-style-type: none;
+	text-align: right;
+}
+.footer-nav li {
+	margin: 10px 0px;
+}
+.footer-nav li a{
+	text-decoration: none;
+	text-align: right;
+	padding: 5px 15px;
+	margin-bottom: 5px;
+	color: #929292;
+}
+.footer-nav li a:hover {
+	background-color: rgba(255,255,255,0.2);
+	border-radius: 5px;
+	cursor: pointer;
+	color: white;
+}
+.copyright {
+	padding: 10px 0 15px 0;
+	background: #2d2d2d;
+	text-align: center;
+	color:#656565;
+	margin-top: 30px;
+}
+.copyright p{
+	margin: 0px;
+}
+
+/*----------------------------------------------Responsive Media Queries----------------------------------------------*/
+@media (max-width: 1370px) {
+    /*Other Page*/
+    .hero-content h1.page-title {
+        font-size: 6rem;
+        line-height: 1;
+        margin-bottom: -10px;
+    }
+    h1.site-title{
+        font-size: 6rem;
+    }
+    .hero-content h2.description {
+        font-size: 3rem;
+    }
+    .home-page-header .hero-content {
+        top: 12vh;
+    }
+}
+@media (max-width: 991.98px) {
+    /*Homepage*/
+    .home-page-header img.main-logo{
+        width: 80px;
+    }
+    h2.description{
+        font-size: 3rem;
+    }
+    h1.site-title{
+        font-size: 5rem;
+    }
+    ul#menu-home-page-menu li {
+        width: 45%;
+        margin: 0px 5px;
+        padding: 2rem;
+    }
+    .home-page-header {
+        min-height: 600px;
+    }
+    .newest-projects-expanded h4 {
+        font-size: 20px;
+        opacity: 1;
+        background: rgba(34, 101, 104, 0.5);
+        color: white;
+        border-bottom: 5px solid white;
+    }
+    .footer-nav{
+        text-align: center;
+    }
+    .menu-footer-menu-1-container ul{
+        padding: 0px;
+    }
+    /*Other Page*/
+    .hero-content h1.page-title {
+        font-size: 7rem;
+        margin-bottom: -11px;
+    }
+    /*Projects*/
+    .newest-projects-expanded {
+        min-height: 300px;
+    }
+    /*Single Blog - All Proejcts - Category*/
+    section.single-blog, section.all-projects, section.category {
+        margin-top: 3px;
+    }
+    /*Gallery Style*/
+    .gallery-item {
+        width: 33% !important;
+    }
+    .gallery br {
+        display: none !important;
+    }
+}
+@media (max-width: 767px) {
+    /*Homepage*/
+    h2.description{
+        font-size: 2rem;
+    }
+    h1.site-title{
+        font-size: 3rem;
+    }
+    /*Navigation*/
+    nav.main-menu .menu {
+        margin: 0px;
+        text-align: center;
+        width: 100%;
+        padding: 0;
+        display: none;
+        background: #242323;
+        margin-bottom: 2rem;
+    }
+    nav.main-menu .menu li {
+        float:none;
+        margin-bottom: 1rem;
+    }
+    nav.main-menu .menu li a {
+        width: 100%;
+        display: block;
+    }
+
+    /*Other Page*/
+    .hero-content h1.page-title {
+        font-size: 6rem;
+    }
+    /*Projects*/
+    .newest-projects-expanded {
+        min-height: 200px;
+    }
+
+    /*Mobile Navigation Menu*/
+    .bar1, .bar2, .bar3 {
+        width: 35px;
+        height: 5px;
+        background-color: #fff;
+        margin: 6px;
+        transition: 0.4s;
+    }
+    .change .bar1 {
+        -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+        transform: rotate(-45deg) translate(-9px, 6px);
+    }
+
+    .change .bar2 {opacity: 0;}
+
+    .change .bar3 {
+        -webkit-transform: rotate(45deg) translate(-8px, -8px);
+        transform: rotate(45deg) translate(-8px, -8px);
+    }
+    .menu-icon{
+        margin-top: 2rem;
+        padding-bottom: 1rem;
+        position: absolute;
+        right: 2rem;
+    }
+}
+
+@media (max-width: 575.98px) {
+    /*Homepage*/
+    ul#menu-home-page-menu li {
+        width: 100%;
+        margin: 5px 0px;
+    }
+    .menu-footer-menu-1-container ul{
+        padding: 0px;
+    }
+    /*Other Page*/
+    .hero-content h1.page-title {
+        font-size: 4rem;
+        margin-bottom: -6px;
+    }
+    /*Gallery Style*/
+    .gallery-item {
+        width: 50% !important;
+
+    }
+}
+
+@media (max-width: 320px) {
+    .all-pages-header h2.blogname a {
+        display: none;
+    }
+}
