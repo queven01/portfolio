@@ -18,12 +18,14 @@ This is the template that displays all pages by default. Please note that this i
 </head>
 
 <?php $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID, 'main-img') ); ?>
+<?php $custom_logo_id = get_theme_mod( 'custom_logo' ); ?>
+<?php $image = wp_get_attachment_image_src( $custom_logo_id , 'full' );?>
 
 <header class="home-page-header" style="background-image: url(<?php echo $url ?>);">
 	<div class="overlay">
 		<div class="hero-content">
 			<div>
-				<a href="<?php echo esc_url(home_url('/')); ?>"><img class="main-logo" src="http://designnsuccess.com/wp-content/uploads/2018/01/white-logo.png" alt="logo"></a>
+				<a href="<?php echo esc_url(home_url('/')); ?>"><img class="main-logo" src="<?php echo $image[0]; ?>" alt="logo"></a>
 			</div>
 			<h2 class="description"><?php bloginfo('description') ?></h2>
 			<h1 class="site-title"><?php bloginfo('name'); ?></h1>
@@ -37,10 +39,6 @@ This is the template that displays all pages by default. Please note that this i
 </header>
 
 <section class="home-page">
-    <?php if ( have_posts() ) : while ( have_posts() ) : the_post();
-        the_content();
-    endwhile;
-    endif; ?>
 	 <div class="row">
          <?php
          $args = array( 'post_type' => 'jetpack-portfolio', 'posts_per_page' => 4 );
@@ -61,6 +59,10 @@ This is the template that displays all pages by default. Please note that this i
 
          <?php endwhile;  ?>
 	 </div>
+	 <?php if ( have_posts() ) : while ( have_posts() ) : the_post();
+        the_content();
+    endwhile;
+    endif; ?>
  </section>
  
  <?php get_footer(); ?>

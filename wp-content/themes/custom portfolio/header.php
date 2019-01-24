@@ -13,15 +13,19 @@ The template fro displaying the header.
 	<?php wp_head(); ?> <!-- used as a hook, must include -->
 </head>
 
-<?php $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID, 'large') ); ?>
-<?php $projects_featured_img = wp_get_attachment_url( get_post_thumbnail_id($post = 232, 'large') ); ?>
-<?php $blog_featured_img = wp_get_attachment_url( get_post_thumbnail_id($post = 298, 'large') ); // 307 on live site.?>
+<?php $page_id = get_queried_object_id(); ?>
 
-<header class="all-pages-header" style="background-image: url(<?php if(is_archive()){ echo $projects_featured_img;} elseif(is_home()){echo $blog_featured_img;} else {echo $url;}?>);">
+<?php $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID, 'large') ); ?>
+<?php $blog_img = wp_get_attachment_url( get_post_thumbnail_id($page_id, 'large') ); ?>
+
+<?php $custom_logo_id = get_theme_mod( 'custom_logo' ); ?>
+<?php $image = wp_get_attachment_image_src( $custom_logo_id , 'full' );?>
+
+<header class="all-pages-header" style="background-image: url(<?php if(is_home()){echo $blog_img;} else {echo $url;}?>);">
 	<div class="overlay">
 		<nav class="main-menu">
 			<div class="nav-scroll-background"></div>
-			<a href="<?php echo esc_url(home_url('/')); ?>"><img class="main-logo" src="http://designnsuccess.com/wp-content/uploads/2018/01/white-logo.png" alt="logo"></a>
+			<a href="<?php echo esc_url(home_url('/')); ?>"><img class="main-logo" src="<?php echo $image[0]; ?>" alt="logo"></a>
 			<h2 class="blogname"><a href="<?php echo esc_url(home_url('/')); ?>"><?php bloginfo('name'); ?></a></h2>
             <?php wp_nav_menu( array( 'theme_location' => 'main-menu' ) ); ?>
 			<div class="menu-icon" onclick="toggleMenu(this)">

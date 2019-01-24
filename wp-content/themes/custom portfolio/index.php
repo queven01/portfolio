@@ -10,7 +10,7 @@ It is used to display a page when nothing more specific matches a query.
 */
  ?>
 
- <?php get_header(); ?>
+<?php get_header(); ?>
 
  <article class="blog-posts">
  	<!-- default loop - while there are post in the database return the post and the contents -->

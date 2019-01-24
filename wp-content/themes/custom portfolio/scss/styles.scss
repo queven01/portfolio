@@ -1,0 +1,621 @@
+/*
+ Theme Name: Custom Portfolio
+ Author: Kevin Correa
+ Description: Kevin's Portfolio
+ Version 1.0
+*/
+
+$white: #fff;
+$black: #000;
+$body-color: #808993;
+$primary_color: #226568;
+$footer_color: #929292;
+$primary_hover: #164b4e;
+
+$font_family_1: sans-serif;
+$background_color_1: rgba(0, 0, 0, 0.5);
+$background_color_3: #236567;
+$background_color_4: #F44336;
+$background_color_5: #3a3b3c;
+$background_color_6: rgba(255,255,255,0.2);
+
+
+body {
+	margin: 0px;
+	font-family: $font_family_1;
+}
+.main {
+	padding: 5rem 0;
+}
+header {
+	h1, h2 {
+		color: $white;
+	}
+	a {
+		color: $white;
+		&:hover {
+			color: $white;
+			text-decoration: none;
+		}
+	}
+}
+h1 {
+	font-size: 5rem;
+}
+h2 {
+	font-size: 4rem;
+}
+a {
+	text-decoration: none !important;
+}
+p {
+	font-size: 15px;
+	line-height: 1.5;
+	letter-spacing: 0;
+	color: $body_color;
+}
+.btn-primary {
+	background: #1f6468;
+	border-color: $primary_color;
+	&:hover {
+		background: #3a898d;
+		border-color: $primary_color;
+	}
+}
+.btn-ghost {
+	border-color: $white;
+	color: $white;
+	&:hover {
+		background: #1f6468;
+		border-color: $primary_color;
+		color: $white;
+	}
+}
+.btn-large {
+	padding: 2rem 4rem;
+	font-size: 2rem;
+}
+.overlay {
+	background-color: $background_color_1;
+	height: 100%;
+	width: 100%;
+}
+.row {
+	margin: 0px;
+}
+/*---------------Homepage---------------*/
+.home-page-header {
+	height: 100vh;
+	min-height: 800px;
+	background-position: center;
+	background-size: cover;
+	.hero-content {
+		position: absolute;
+		top: 14vh;
+		width: 100%;
+		padding: 2%;
+		text-align: center;
+	}
+	.call-to-action {
+		margin-top: 2.5%;
+	}
+	.main-logo {
+		width: 150px;
+		float: none;
+	}
+	#menu-home-page-menu {
+	    margin-bottom: 3rem;
+		padding: 0px;
+		
+		li {
+			display: inline-block;
+			margin: 0 10px;
+			a {
+				padding: 1.5rem 2rem;
+			    background: $primary_color;
+			    border-radius: 5px;
+			    font-size: 1.5rem;
+			    text-transform: uppercase;
+			    box-shadow: 0px 3px 8px #00000078;
+	    	&:hover {
+	    		background-color: $primary_hover;
+	    	}
+		}
+
+		} 
+	}
+}
+
+.hero-content {
+	h1.site-title {
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+	h2.description {
+		font-weight: 100;
+	}
+	h1.page-title {
+		font-weight: bold;
+	}
+}
+/*---------------Homepage END---------------*/
+
+.all-pages-header {
+	nav.main-menu {
+		background: transparent;
+		padding: 0 5% 0 5%;
+	}
+	h2.blogname {
+		float: left;
+		line-height: .7;
+		a {
+			color: $white;
+			text-decoration: none;
+			font-size: 2rem;
+			font-weight: 100;
+			text-transform: uppercase;
+		}
+	}
+	height: 30vh;
+	position: relative;
+	min-height: 250px;
+	background-position: center;
+	background-size: cover;
+	.page-title {
+		font-size: 8em;
+		line-height: 0.5;
+	}
+	.hero-content {
+		position: absolute;
+		text-align: center;
+		bottom: 0rem;
+		width: 100%;
+		padding: 5% 5% 0 5%;
+	}
+}
+nav.main-menu {
+	.menu {
+		float: right;
+		margin-top: 30px;
+		li {
+			float: left;
+			list-style-type: none;
+			a {
+				text-decoration: none;
+				padding: 10px 20px;
+				padding: 10px 20px;
+				font-weight: bold;
+				color: $white;
+				&:hover {
+					background: #fff;
+					color: $primary_color;
+					border-radius: 4px;
+					cursor: pointer;
+				}
+			}
+		}
+	}
+	background: #1f6468;
+	position: fixed;
+	left: 0;
+	right: 0;
+	z-index: 1;
+}
+.main-logo {
+	float: left;
+	width: 50px;
+	margin: 15px 15px 15px 0;
+}
+.nav-scroll-background {
+	background: #2d2d2d;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: -1;
+	display: none;
+}
+.newest-projects-expanded {
+	background-size: cover !important;
+	background-repeat: no-repeat !important;
+	background-position: center !important;
+	background-color: $black !important;
+	min-height: 400px;
+	transition-duration: .4s;
+	padding: 10px;
+	a {
+		text-decoration: none;
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+	}
+	h4 {
+		font-size: 25px;
+		margin: 0px;
+		color: $primary_color;
+		font-weight: bold;
+		height: 100%;
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		opacity: 0;
+	}
+	&:hover {
+		h4 {
+			background: rgba(34, 101, 104, 0.8);
+			opacity: 1;
+			color: $white;
+			cursor: pointer;
+		}
+		div {
+			background: rgba(34, 101, 104, 0.8);
+			opacity: 1;
+			color: $white;
+			cursor: pointer;
+		}
+	}
+	div {
+		font-size: 25px;
+		margin: 0px;
+		color: $primary_color;
+		font-weight: bold;
+		height: 100%;
+		width: 100%;
+		position: absolute;
+		opacity: 0;
+	}
+}
+section.all-projects {
+	margin-top: 8px;
+	border-top: 30px solid #226568;
+}
+section.category {
+	margin-top: 8px;
+	border-top: 30px solid #226568;
+}
+.menu-category-container {
+	ul#menu-category {
+		text-align: center;
+		margin: 0px;
+		padding: 0px;
+		background: #123637;
+		li {
+			display: inline-block;
+			a {
+				display: inline-block;
+				padding: 1.5rem 2rem;
+				color: $white;
+				&:hover {
+					background-color: $background_color_3;
+				}
+			}
+		}
+		li.current-menu-item {
+			background-color: $background_color_3;
+		}
+	}
+}
+ul#menu-blog-category-menu {
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	background: #123637;
+	li {
+		display: inline-block;
+		a {
+			display: inline-block;
+			padding: 1.5rem 2rem;
+			color: $white;
+			&:hover {
+				background-color: $background_color_3;
+			}
+		}
+	}
+	li.current-menu-item {
+		background-color: $background_color_3;
+	}
+}
+section.all-posts {
+	margin-top: 8px;
+	border-top: 30px solid #226568;
+}
+.single-blog-padding {
+	padding: 5rem 5rem;
+}
+
+.blog-post-view-single {
+	text-align: center;
+	padding: 60px 60px 0px 60px;
+	border-bottom: solid 60px rgba(0, 0, 0, 0);
+	overflow: hidden;
+	h2.blog-title {
+		border-bottom: 2px solid white;
+	}
+	p {
+		color: $white;
+		font-weight: normal;
+	}
+}
+section.single-blog {
+	margin-top: 8px;
+	border-top: 30px solid #226568;
+}
+.single-blog {
+	.img {
+		img {
+			width: 100%;
+			height: 100%;
+		}
+	}
+}
+.error-page {
+	text-align: center;
+	padding: 5rem 0;
+}
+.contact-form {
+	label {
+		display: block;
+	}
+	h3.widget-title {
+		text-align: center;
+		padding: 30px 0px;
+	}
+	div {
+		input, textarea {
+			width: 100%;
+			max-width: 100%;
+			border: 1px solid #c3c3c3;
+			font-size: 2rem;
+			padding: 1rem;
+		}
+		input[type='submit'] {
+		margin: 1rem 0;
+		width: 200px;
+		color: $white;
+		height: 50px;
+		background-color: $background_color_4;
+		border: none;
+		text-transform: uppercase;
+		font-size: 20px;
+		text-align: center;
+		}
+	}
+}
+
+footer {
+	min-height: 150px;
+	background-color: $background_color_5;
+	color: $footer_color;
+	h3 {
+		text-align: center;
+		margin-top: 30px;
+	}
+}
+.menu-footer-menu-1-container {
+	ul {
+		list-style-type: none;
+	}
+}
+.footer-nav {
+	margin-top: 30px;
+	list-style-type: none;
+	text-align: right;
+	li {
+		margin: 10px 0px;
+		a {
+			text-decoration: none;
+			text-align: right;
+			padding: 5px 15px;
+			margin-bottom: 5px;
+			color: $footer_color;
+			&:hover {
+				background-color: $background_color_6;
+				border-radius: 5px;
+				cursor: pointer;
+				color: $white;
+			}
+		}
+	}
+}
+.copyright {
+	padding: 10px 0 15px 0;
+	background: #2d2d2d;
+	text-align: center;
+	color: $footer_color;
+	margin-top: 30px;
+	p {
+		margin: 0px;
+	}
+}
+@media (max-width: 1370px) {
+	.hero-content {
+		h1.page-title {
+			font-size: 6rem;
+			line-height: 1;
+			margin-bottom: -10px;
+		}
+		h2.description {
+			font-size: 3rem;
+		}
+	}
+	h1.site-title {
+		font-size: 6rem;
+	}
+	.home-page-header {
+		.hero-content {
+			top: 12vh;
+		}
+	}
+}
+@media (max-width: 991.98px) {
+	.home-page-header {
+		img.main-logo {
+			width: 80px;
+		}
+		min-height: 600px;
+	}
+	h2.description {
+		font-size: 3rem;
+	}
+	h1.site-title {
+		font-size: 5rem;
+	}
+	ul#menu-home-page-menu {
+		li {
+			width: 45%;
+			margin: 0px 5px;
+			padding: 2rem;
+		}
+	}
+	.newest-projects-expanded {
+		h4 {
+			font-size: 20px;
+			opacity: 1;
+			background: rgba(34, 101, 104, 0.5);
+			color: $white;
+			border-bottom: 5px solid white;
+		}
+		min-height: 300px;
+	}
+	.footer-nav {
+		text-align: center;
+	}
+	.menu-footer-menu-1-container {
+		ul {
+			padding: 0px;
+		}
+	}
+	.hero-content {
+		h1.page-title {
+			font-size: 7rem;
+			margin-bottom: -11px;
+		}
+	}
+	section.single-blog {
+		margin-top: 3px;
+	}
+	section.all-projects {
+		margin-top: 3px;
+	}
+	section.category {
+		margin-top: 3px;
+	}
+	.gallery-item {
+		width: 33% !important;
+	}
+	.gallery {
+		br {
+			display: none !important;
+		}
+	}
+}
+@media (max-width: 767px) {
+	h2.description {
+		font-size: 2rem;
+	}
+	h1.site-title {
+		font-size: 3rem;
+	}
+	nav.main-menu {
+		.menu {
+			margin: 0px;
+			text-align: center;
+			width: 100%;
+			padding: 0;
+			display: none;
+			background: #242323;
+			margin-bottom: 2rem;
+			li {
+				float: none;
+				margin-bottom: 1rem;
+				a {
+					width: 100%;
+					display: block;
+				}
+			}
+		}
+	}
+	.hero-content {
+		h1.page-title {
+			font-size: 6rem;
+		}
+	}
+	.newest-projects-expanded {
+		min-height: 200px;
+	}
+	.bar1 {
+		width: 35px;
+		height: 5px;
+		background-color: $white;
+		margin: 6px;
+		transition: 0.4s;
+	}
+	.bar2 {
+		width: 35px;
+		height: 5px;
+		background-color: $white;
+		margin: 6px;
+		transition: 0.4s;
+	}
+	.bar3 {
+		width: 35px;
+		height: 5px;
+		background-color: $white;
+		margin: 6px;
+		transition: 0.4s;
+	}
+	.change {
+		.bar1 {
+			-webkit-transform: rotate(-45deg) translate(-9px, 6px);
+			transform: rotate(-45deg) translate(-9px, 6px);
+		}
+		.bar2 {
+			opacity: 0;
+		}
+		.bar3 {
+			-webkit-transform: rotate(45deg) translate(-8px, -8px);
+			transform: rotate(45deg) translate(-8px, -8px);
+		}
+	}
+	.menu-icon {
+		margin-top: 2rem;
+		padding-bottom: 1rem;
+		position: absolute;
+		right: 2rem;
+	}
+}
+@media (max-width: 575.98px) {
+	ul#menu-home-page-menu {
+		li {
+			width: 100%;
+			margin: 5px 0px;
+		}
+	}
+	.menu-footer-menu-1-container {
+		ul {
+			padding: 0px;
+		}
+	}
+	.hero-content {
+		h1.page-title {
+			font-size: 4rem;
+			margin-bottom: -6px;
+		}
+	}
+	.gallery-item {
+		width: 50% !important;
+	}
+}
+@media (max-width: 320px) {
+	.all-pages-header {
+		h2.blogname {
+			a {
+				display: none;
+			}
+		}
+	}
+}

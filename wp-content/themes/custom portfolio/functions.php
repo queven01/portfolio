@@ -1,5 +1,14 @@
 <?php 
 
+//Custom Logo
+add_theme_support( 'custom-logo', array(
+  'height'      => 100,
+  'width'       => 400,
+  'flex-height' => true,
+  'flex-width'  => true,
+  'header-text' => array( 'site-title', 'site-description' ),
+) );
+
 //Adding scripts and stylesheet
 function newtheme_enqueue_style() {
 
@@ -36,22 +45,23 @@ add_action( 'init', 'register_my_menu' );
 function new_excerpt_more( $more ) {
     return ' <a class="read-more" href="'. get_permalink( get_the_ID() ) . '">' . __('Read More', 'your-text-domain') . '</a>';
 }
+
 //Adding Custom Post Types
-add_action( 'init', 'create_post_type' );
-function create_post_type() {
-    //can register multiple post types in this function
-      register_post_type( 'newest-projects',
-        array(
-          'labels' => array(
-            'name' => __( 'Projects' ),
-            'singular_name' => __( 'Project' )
-          ),
-          'public' => true,
-          'has_archive' => true,
-          'suports' => array('title','editor','page-attributes', 'thumbnail')
-        )
-      );
-}
+// add_action( 'init', 'create_post_type' );
+// function create_post_type() {
+//     //can register multiple post types in this function
+//       register_post_type( 'newest-projects',
+//         array(
+//           'labels' => array(
+//             'name' => __( 'Projects' ),
+//             'singular_name' => __( 'Project' )
+//           ),
+//           'public' => true,
+//           'has_archive' => true,
+//           'suports' => array('title','editor','page-attributes', 'thumbnail')
+//         )
+//       );
+// }
 
 
 
