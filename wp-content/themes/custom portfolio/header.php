@@ -1,16 +1,23 @@
 <?php 
 /*
-The template fro displaying the header.
+The template for displaying the header.
 */
  ?>
 <!DOCTYPE html>
 <html> <!-- left open, close in footer -->
-<head <?php language_attributes(); ?>>
+<head 
+	<?php language_attributes(); ?>>
 	<meta charset="<?php bloginfo('charset') ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title><?php wp_title(); ?></title>
-	<!-- <link rel="stylesheet" type="text/css" href=""> dont link to css here, we'll do that in functions.php -->
-	<?php wp_head(); ?> <!-- used as a hook, must include -->
+	<!-- used as a hook, must include -->
+	<?php wp_head(); ?>
+	<!-- Custom CSS Box -->
+	<style>
+	<?php  
+    the_field('css_box');
+    ?>
+	</style>
 </head>
 
 <?php $page_id = get_queried_object_id(); ?>

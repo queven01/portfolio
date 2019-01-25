@@ -1,5 +1,16 @@
 <?php 
 
+//Layout Title Changer on Flexible Layout Template
+function flex_layout_title( $title, $field, $layout, $i ) {
+  $text = get_sub_field('title');
+  if ($text) {
+    $title .= ':<span style="color: #0085ba;font-weight: bold;padding-left: 10px;color: #0085ba;">' . $text . '</span>';
+  }
+  return $title;
+}
+
+add_filter('acf/fields/flexible_content/layout_title/name=flexible_layout', 'flex_layout_title', 10, 4);
+
 //Custom Logo
 add_theme_support( 'custom-logo', array(
   'height'      => 100,
